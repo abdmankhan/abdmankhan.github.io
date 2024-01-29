@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Page</title>
+</head>
+<body>
+    <h1 style="text-align: center;">STUDENT REGISTRATION FORM</h1>
+    <form action="/noaction.php">
+        <fieldset>
+            <legend>Basic Information</legend>
+        First Name: <input type="text" name="FName" placeholder="First Name" >
+        Middle Name: <input type="text" name = "SName" placeholder="Middle Name">
+        Last Name: <input type="text" name = "LName" placeholder="Last Name"><br>
+        Roll No: <input type="text" name="rollno" placeholder="23MCF1R02">
+        <br>
+        Email ID : <input type="email" name="email" placeholder="am23mcf1r02@student.nitw.ac.in" size="30"><br>
+        Phone : <input type="tel" name = "phone" placeholder = "8960705602"><br>
+        Username : <input type="text" name = "username" placeholder = "username"><br>
+        Password : <input type="password" name = "password" placeholder="Password"><br>
+        Re-Password : <input type="password" name = "repassword" placeholder="Re-Password"><br>
+        Branch : <select name="branch">
+            <option value="select">No Select</option>
+            <option value="civil">Civil</option>
+            <option value="mech">Mechanical</option>
+            <option value="electronics">Electronics</option>
+            <option value="computers">CSE</option>
+          </select>
+          <br>
+        Year of Study : <select name="yos">
+            <option value="select">No Select</option>
+            <option value="1">I</option>
+            <option value="2">II</option>
+            <option value="3">III</option>
+        </select><br>
+        Upload Photo : <input type="file" id="myFile" name="filename">
+    </fieldset>
+        <hr>
+        <fieldset>
+            <legend>Personal Details</legend>
+        Father's Name: <input type="text" name="FatherName" placeholder="Father's Name" >
+        Contact No: <input type="tel" name = "Fno." placeholder="Contact No."><br>
+        Mother's Name: <input type="text" name = "MotherName" placeholder="Mother's Name">
+        Contact No: <input type="tel" name = "Mno." placeholder="Contact No."><br>
+        Date of Birth : <input type="date" name="dob"><br>
+        Aadhar No. : <input type="number" name = "aadhar"><br>
+        <br>
+    </fieldset>
+
+        <fieldset>
+            <legend>Address</legend>
+        Address 1 :  <textarea name="add1" cols="30" rows="5"></textarea><br>
+        Address 2 :  <textarea name="add2" cols="30" rows="5"></textarea>
+    </fieldset>
+    <button type = "submit">Submit</button>
+    <button type = "Reset">Reset</button>
+    <br>
+    <a href="login.html">Login Here</a>
+    </form>
+</body>
+</html>
