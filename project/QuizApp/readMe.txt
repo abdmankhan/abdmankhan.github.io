@@ -1,0 +1,1 @@
+5th video consists of innerText use, simple to use..
