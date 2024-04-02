@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <form name="myform" action="#" onsubmit="formvalidation()" >
+        <table class="center">
+            <tr>
+                <td>name</td>
+                <td >
+                    <input type="text" id="name">
+                </td>
+            </tr>
+            <tr>
+                <td>email</td>
+                <td>
+                    <input type="email" id="email" >
+            </tr>
+            <tr>
+                <td><label>password</label></td>
+                <td>
+                    <input type="passward" id="password1" >
+                </td>
+            </tr>
+            <tr>
+                <td><label>conform_possword</label></td>
+                <td>
+                    <input type="password" id="password2">
+                </td>
+            </tr>
+            <tr>
+                <td>contact_no</td>
+                <td>
+                    <input type="contact_no" id="contact_no">
+                </td>
+            </tr>
+            <form name="res" onsubmit="response()">
+           <tr>
+            <td colspan="2" align="center">
+                <button id="btn" >submit</button>
+            </td>
+           </tr>
+        </form>
+        </table>
+    
+    </form>
+    
+    <script src="index.js"></script>
+</body>
+</html>

@@ -1,0 +1,19 @@
+
+.center{
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+form table{
+    background-color: wheat;
+}
+input{
+    background-color:wheat;
+}
+input[type="text"]{
+  color:red;
+}
+.center button{
+    
+    background-color: blue;
+}

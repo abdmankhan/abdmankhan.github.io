@@ -1,0 +1,88 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .screen{
+            display:flex;
+        }
+        .screen > div{
+            width:50%;
+            height:400px;
+        }
+    </style>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700;900&display=swap');
+      </style>
+      <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap');
+      </style>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Lora:wght@700&display=swap');
+  </style>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">
+          <img src="book.ico" alt="Logo">
+        </div>
+        <div class="title">
+          <h1><span style="font-size: 25px;text-decoration-style:dashed;">ProjectNSWT</span></h1>
+        </div>
+        <ul class="menu">
+          <li><a href="../Signuup/index.html">Home</a></li>
+          <li class="dropdown">
+            <a href="#">Tests</a> 
+            <div class="dropdown-content">
+              <a href="#">Test 1</a>
+              <a href="#">Test 2</a>
+              <a href="#">Test 3</a>
+              <a href="#">Test 4</a>
+              <a href="#">Test 5</a>
+            </div>
+          </li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="../QuizApp/html/index.html" class="ashu5" style="color:#0F3CD6;";>Login</a></li>
+          <li><a href="../TodoList/TodoList/project.html" class="ashu6" >Signup</a></li>
+        </ul>
+      </nav>
+    
+    <div class="screen">
+        <div style="background-image:url('/html/div2bg.jpg');background-size: cover;">
+            <pre style = "font-family: 'Montserrat', sans-serif;padding-top: 40px;">
+  <span class="ashu7" > As A Man Thinketh in his heart </span>
+        
+  
+    <span class="ashu8">so is he.</span>  
+                                              
+    
+    <span class="ashu9">Be Positive <span style="background-color:#98E1F0;color: white;">+</span></span>   
+    <img src="love.png" style="width: 100px; height: 100px;">
+    
+            </pre>
+        </div>
+        <div style="background-color: blueviolet; "><img src="bg2.jpg" alt="error"style="width:99.9%;height:100%"></div>
+    </div>
+    <div class="ashudiv" style="background-color: #98E1F0;;width: 100%;height: 120px;">
+        <div id="ashu2">
+        <table >
+            <tr >
+                <th id="ashu1" rowspan="2">Word of the day :</th>
+                <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="font-size: 30px;font-family: 'Roboto Slab', serif;letter-spacing: 1px;"><b>noun             &nbsp;&nbsp;&nbsp;</b></span><span class="ashu3" style = "box-shadow: 8px 8px 8px #0F3CD6;";><b>  <em>virtuoso</em>    </b></span><span>&nbsp;&nbsp;</span><span class="ashu4" style="text-decoration: underline;"> who is dazzingly skilled in any field. </span></td>
+            </tr>
+            <tr>
+                <td ><span class="ashu3"> <b>Sy</b></span><span class="ashu4">hotshot, maven, star</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="ashu3">An</span><span class="ashu4">artless, begi</span></td>
+            </tr>            
+        </table> 
+    </div>
+    </div>
+    <div class="ashudiv" style="background-color:#0F3CD6;width: 100%;height: 120px; display:inline-block;">
+       <pre class="ashu10">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut praesentium similique assumenda accusantium eveniet sunt, modi, esse doloribus voluptatibus tempora in! Quasi ratione ipsam sequi veniam possimus ipsum tempora rerum.
+       </pre>
+</body>
+</body>
+</html>
