@@ -65,7 +65,7 @@ form.addEventListener("submit", (event) => {
     alert("Form submitted successfully!");
     // window.location.href = "www.google.com";
     // form.onsubmit= function(){ window.location = 'login.html'; };
-    window.location.href = "/html/index1.html";
+    window.location.href = "index1.html";
     
   } else {
     // Form is invalid, prevent submission
