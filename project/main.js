@@ -1,6 +1,6 @@
 function redirecter1(){
-    window.location = "../QuizApp/html/index.html"
+    window.location = "QuizApp/html/index.html"
 }
 function redirecter2(){
-    window.location = "../TodoList/TodoList/project.html"
+    window.location = "TodoList/TodoList/project.html"
 }
