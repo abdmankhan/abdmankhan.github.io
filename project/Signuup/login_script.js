@@ -13,7 +13,7 @@ form.addEventListener("submit", (e) => {
 
   if (usernameInput.value === storedUsername && passwordInput.value === storedPassword) {
     // If the credentials match, redirect to the index.html page
-    window.location.href = "index1.html";
+    window.location.href = "../index1.html";
   } else {
     // If the credentials don't match, display an error message
     alert("Invalid username or password");
