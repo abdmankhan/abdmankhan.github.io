@@ -10,6 +10,7 @@ let score = 0;
 let questionCounter = 0;
 let availableQuestions = [];
 
+
 let questions = [
     {
         question: 'What is the syntax to declare a pointer in C++?',
@@ -251,14 +252,7 @@ let questions = [
         choice4: 'file.open("filename.txt", ios::write);',
         answer: 3,
     },
-    {
-        question: 'What is the output of the following code snippet?\nint arr[5];\narr[0] = 1;\narr[1] = 2;\narr[2] = 3;\narr[3] = 4;\narr[4] = 5;\ncout << arr[2];',
-        choice1: '3',
-        choice2: '5',
-        choice3: '4',
-        choice4: '2',
-        answer: 1,
-    },
+    
     {
         question: 'What is the purpose of the const qualifier in a member function?',
         choice1: 'To make the function a class member',
@@ -301,7 +295,7 @@ getNewQuestion = () =>{
         localStorage.setItem('mostRecentScore',score);
         //go to end page,,
         //when all questions are over...
-        return window.location.assign('/project/QuizApp/html/end.html');
+        return window.location.assign('../html/end.html');
     }
     questionCounter++;
     questionCounterText.innerText = questionCounter + "/" + MAX_QUESTIONS;//5th.. can use $

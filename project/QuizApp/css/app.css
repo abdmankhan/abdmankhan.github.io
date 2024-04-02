@@ -1,13 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 :root{
     background-color: #ecf5ff;
-    font-size : 62.5%;
+    font-size: 62.5%;
 }
 *{
     box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  word-spacing: normal;
+  font-style: normal;
+
     margin: 0;
     padding: 0;
     color: #333; 
+    
 }
 h1,h2,h3,h4{
     margin-bottom: 1rem;
@@ -32,25 +38,43 @@ h3{
 }
 /* utilities */
 .container{
-    width: 100vw;
-    height : 100vh;
-    display : flex;
-    justify-content: center;
-    align-items: center;
+    width: 50%;
+    height : auto;
+    display : block;
     max-width: 80rem;
-    margin: 0 auto;  
+    font-family: "Roboto", sans-serif;
+    position: relative;
+    left : 200px;
+    margin: 50px auto;  
+}
+.container2{
+  width: 100vw;
+  height : 100vh;
+  display : flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 80rem;
+  margin: 0 auto;  
+}
+.cntr{
+  display: flex;
+  width: 50%;
+  position: relative;
+  left : 300px; 
+  justify-content: space-between;
+  align-items: center;
 }
 .container > *{
     width: 100%;
 }
-.flex-column{
+/* .flex-column{
     display: flex;
     flex-direction: column;
 }
 .flex-center{
     justify-content: center;
     align-items: center;
-}
+} */
 .justify-center{
     justify-content: center;
 }
@@ -104,4 +128,59 @@ h3{
   }
   input::placeholder{
     color:none;
+  }
+
+  #scoreid {
+    background-color: #f5f5f5;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+  
+  #scoreid p {
+    font-size: 30px;
+    font-weight: bold;
+    color: #333;
+  }
+  /* name to be shown on last page */
+  #scorename { 
+    font-family:Roboto,sans-serif;
+  }
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: #0F3CD6; */
+    padding: 20px;
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  .navbar a {
+    color: #FFFFFF;
+    text-decoration: none;
+    margin-right: 20px;
+  }
+  
+  .title {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    position: relative;
+    left:-700px;
+  }
+  
+  .title h1 {
+    font-weight: bold;
+    margin: 0;
+    font-size: 30px;
+    margin-left: 30px;
+    color: blue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 700;
+  }
+  .logo{
+    position: relative;
+    left:200px;
   }

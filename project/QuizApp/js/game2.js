@@ -311,7 +311,7 @@ getNewQuestion = () =>{
         localStorage.setItem('mostRecentScore',score);
         //go to end page,,
         //when all questions are over...
-        return window.location.assign('/project/QuizApp/html/end2.html');
+        return window.location.assign('../html/end2.html');
     }
     questionCounter++;
     questionCounterText.innerText = questionCounter + "/" + MAX_QUESTIONS;//5th.. can use $
