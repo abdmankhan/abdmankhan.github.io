@@ -70,7 +70,7 @@ function validate() {
         localStorage.setItem('email',email.value);
         localStorage.setItem('password',password.value);
         alert("Your form is submitted successfully");
-        window.open('/html/indexcopy.html');
+        window.open('/HTML/indexcopy.html');
         return true;
 
     }
@@ -84,7 +84,7 @@ function check()
     if(username.value==localStorage.getItem('email') && lpass.value==localStorage.getItem('password'))
     {
         alert("Login successfully");
-        window.open('/html/indexcopy.html');
+        window.open('/HTML/indexcopy.html');
         return true;
         
     }
