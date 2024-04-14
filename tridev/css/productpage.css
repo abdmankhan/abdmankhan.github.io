@@ -1,0 +1,81 @@
+body {
+    background: linear-gradient(to right, #0b090a, #161a1d);
+    color: #ffffff;
+    
+}
+
+
+/* .navbar {
+  font-family: "Nabla", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-size: 60px;
+  font-style: normal;
+  
+}
+.navbar {
+    background: #161a1d;
+}
+
+.navbar-brand {
+    color: #e3a847;
+} */
+
+.bi-person-circle {
+    color: #e3a847;
+}
+
+    .rating {
+        display: inline-block;
+        unicode-bidi: bidi-override;
+        direction: rtl;
+    }
+    
+    .rating input {
+        display: none;
+    }
+    
+    .rating label {
+        display: inline-block;
+        cursor: pointer;
+        width: 25px;
+        height: 25px;
+        background-image: url('star.png');
+        background-size: cover;
+    }
+    
+    .rating label:before {
+        content: '\2605';
+        font-size: 25px;
+        color: #ddd;
+    }
+    
+    .rating input:checked ~ label:before {
+        color: #ffdd00;
+    }
+  .mysearch {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 28px;
+    color: white;
+    padding: 10px 40px 10px 20px; /* Make the search bar bigger */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add box shadow */
+    background: url('https://cdn-icons-png.flaticon.com/512/482/482631.png') no-repeat scroll 7px 7px, #000; /* Add search icon */
+    background-size: 25px 25px; /* Adjust the size of the search icon */
+    text-indent: 30px; /* Indent the text to not overlap with the search icon */
+    border-radius: 15px;
+    font-weight: 800;
+}
+
+.mysearch::placeholder { /* Change the color of placeholder text */
+    color: white;
+    opacity: 1; /* Firefox */
+}
+
+.mysearch:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: white;
+}
+
+.mysearch::-ms-input-placeholder { /* Microsoft Edge */
+    color: white;
+}
+

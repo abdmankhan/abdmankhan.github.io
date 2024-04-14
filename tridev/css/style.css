@@ -1,0 +1,13 @@
+.horizontal-bar {
+    border-top: 1px solid #ccc;
+    text-align: center;
+    padding: 10px 0;
+  }
+  
+  .text {
+    background-color: #fff;
+    padding: 5px 10px;
+    position: relative;
+    top: -8px;
+    background-color: #fff;
+  } 
