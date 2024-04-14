@@ -11,7 +11,7 @@ const movies = [
       year: '2023', 
       director: 'Rajkumar Hirani', 
       leadActor: 'Shah Rukh Khan',
-      backgroundImage : '/media/dunki.jpg'
+      backgroundImage : '/medias/dunki.jpg'
     },
     { 
       title: '3 Idiots', 
@@ -19,7 +19,7 @@ const movies = [
       year: '2009', 
       director: 'Rajkumar Hirani', 
       leadActor: 'Aamir Khan',
-      backgroundImage : '/media/threeid.jpg'
+      backgroundImage : '/medias/threeid.jpg'
     },
     { 
       title: 'Taare Zameen Par', 
@@ -27,7 +27,7 @@ const movies = [
       year: '2007', 
       director: 'Aamir Khan', 
       leadActor: 'Aamir Khan',
-      backgroundImage : '/media/tzp.jpg' 
+      backgroundImage : '/medias/tzp.jpg' 
     },
     { 
         title: 'PK', 
@@ -35,7 +35,7 @@ const movies = [
         year: '2014', 
         director: 'Rajkumar Hirani', 
         leadActor: 'Aamir Khan',
-        backgroundImage : '/media/pk.jpg'
+        backgroundImage : '/medias/pk.jpg'
       },
     { 
       title: 'Dangal', 
@@ -43,7 +43,7 @@ const movies = [
       year: '2016', 
       director: 'Nitesh Tiwari', 
       leadActor: 'Aamir Khan',
-      backgroundImage : '/media/dangal.jpg'
+      backgroundImage : '/medias/dangal.jpg'
     },
     { 
       title: 'Lagaan', 
@@ -51,7 +51,7 @@ const movies = [
       year: '2001', 
       director: 'Ashutosh Gowariker', 
       leadActor: 'Aamir Khan',
-      backgroundImage : '/media/lagaan.jpg'
+      backgroundImage : '/medias/lagaan.jpg'
     },
     { 
       title: 'Dil Chahta Hai', 
@@ -59,7 +59,7 @@ const movies = [
       year: '2001', 
       director: 'Farhan Akhtar', 
       leadActor: 'Aamir Khan',
-      backgroundImage : '/media/dch.jpg'
+      backgroundImage : '/medias/dch.jpg'
     },
     { 
       title: 'Rang De Basanti', 
@@ -67,7 +67,7 @@ const movies = [
       year: '2006', 
       director: 'Rakeysh Omprakash Mehra', 
       leadActor: 'Aamir Khan',
-      backgroundImage : '/media/rdb.jpg'
+      backgroundImage : '/medias/rdb.jpg'
     },
     { 
       title: 'Ghajini', 
@@ -75,7 +75,7 @@ const movies = [
       year: '2008', 
       director: 'A. R. Murugadoss', 
       leadActor: 'Aamir Khan',
-      backgroundImage : '/media/ghajini.jpg'
+      backgroundImage : '/medias/ghajini.jpg'
     },
     { 
       title: 'Golmaal: Fun Unlimited', 
@@ -83,7 +83,7 @@ const movies = [
       year: '2006', 
       director: 'Rohit Shetty', 
       leadActor: 'Ajay Devgn',
-      backgroundImage : '/media/golmal1.jpg'
+      backgroundImage : '/medias/golmal1.jpg'
     },
     { 
       title: 'Golmaal Returns', 
@@ -91,7 +91,7 @@ const movies = [
       year: '2008', 
       director: 'Rohit Shetty', 
       leadActor: 'Ajay Devgn',
-      backgroundImage : '/media/golreturns.jpg'
+      backgroundImage : '/medias/golreturns.jpg'
     },
     { 
       title: 'Golmaal 3', 
@@ -99,7 +99,7 @@ const movies = [
       year: '2010', 
       director: 'Rohit Shetty', 
       leadActor: 'Ajay Devgn',
-      backgroundImage : '/media/g3.jpg'
+      backgroundImage : '/medias/g3.jpg'
     },
     { 
       title: 'Golmaal Again', 
@@ -107,7 +107,7 @@ const movies = [
       year: '2017', 
       director: 'Rohit Shetty', 
       leadActor: 'Ajay Devgn',
-      backgroundImage : '/media/glmlagain.jpg'
+      backgroundImage : '/medias/glmlagain.jpg'
     },
     { 
       title: 'Singham', 
@@ -115,7 +115,7 @@ const movies = [
       year: '2011', 
       director: 'Rohit Shetty', 
       leadActor: 'Ajay Devgn',
-      backgroundImage : '/media/singhum.jpg' 
+      backgroundImage : '/medias/singhum.jpg' 
     },
     { 
       title: 'Singham Returns', 
@@ -123,7 +123,7 @@ const movies = [
       year: '2014', 
       director: 'Rohit Shetty', 
       leadActor: 'Ajay Devgn',
-      backgroundImage : '/media/srtn.jpg' 
+      backgroundImage : '/medias/srtn.jpg' 
     },
     { 
       title: 'Tanaji: The Unsung Warrior', 
@@ -131,7 +131,7 @@ const movies = [
       year: '2020', 
       director: 'Om Raut', 
       leadActor: 'Ajay Devgn',
-      backgroundImage : '/media/tanaji.jpg'
+      backgroundImage : '/medias/tanaji.jpg'
     },
     { 
       title: 'Shivaay', 
@@ -139,7 +139,7 @@ const movies = [
       year: '2016', 
       director: 'Ajay Devgn', 
       leadActor: 'Ajay Devgn',
-      backgroundImage : '/media/shivaay.jpg'
+      backgroundImage : '/medias/shivaay.jpg'
     },
     { 
       title: 'Raajneeti', 
@@ -147,7 +147,7 @@ const movies = [
       year: '2010', 
       director: 'Prakash Jha', 
       leadActor: 'Ajay Devgn',
-      backgroundImage : '/media/rajneeti.jpg'
+      backgroundImage : '/medias/rajneeti.jpg'
     },
     { 
       title: 'Drishyam', 
@@ -155,7 +155,7 @@ const movies = [
       year: '2015', 
       director: 'Nishikant Kamat', 
       leadActor: 'Ajay Devgn' ,
-      backgroundImage : '/media/drishyam.jpg'
+      backgroundImage : '/medias/drishyam.jpg'
     },
     { 
       title: 'Munna Bhai M.B.B.S.', 
@@ -163,7 +163,7 @@ const movies = [
       year: '2003', 
       director: 'Rajkumar Hirani', 
       leadActor: 'Sanjay Dutt',
-      backgroundImage : '/media/munnabhai.jpg'
+      backgroundImage : '/medias/munnabhai.jpg'
     },
     { 
       title: 'Lage Raho Munna Bhai', 
@@ -171,7 +171,7 @@ const movies = [
       year: '2006', 
       director: 'Rajkumar Hirani', 
       leadActor: 'Sanjay Dutt' ,
-      backgroundImage : '/media/mbbs.jpg'
+      backgroundImage : '/medias/mbbs.jpg'
     },
     { 
       title: 'Sanju', 
@@ -179,7 +179,7 @@ const movies = [
       year: '2018', 
       director: 'Rajkumar Hirani', 
       leadActor: 'Ranbir Kapoor',
-      backgroundImage : '/media/sanju.jpg' 
+      backgroundImage : '/medias/sanju.jpg' 
     },
     
     { 
@@ -188,7 +188,7 @@ const movies = [
       year: '2016', 
       director: 'Sudha Kongara', 
       leadActor: 'R. Madhavan' ,
-      backgroundImage : '/media/khadoos.jpg'
+      backgroundImage : '/medias/khadoos.jpg'
     },
     { 
       title: 'Rocket Singh: Salesman of the Year', 
@@ -196,7 +196,7 @@ const movies = [
       year: '2009', 
       director: 'Shimit Amin', 
       leadActor: 'Ranbir Kapoor' ,
-      backgroundImage : '/media/rocketsingh.jpeg'
+      backgroundImage : '/medias/rocketsingh.jpeg'
     },
     { 
       title: 'Wake Up Sid', 
@@ -204,7 +204,7 @@ const movies = [
       year: '2009', 
       director: 'Ayan Mukerji', 
       leadActor: 'Ranbir Kapoor',
-      backgroundImage : '/media/wakeupsid.jpg' 
+      backgroundImage : '/medias/wakeupsid.jpg' 
     },
     { 
       title: 'Barfi!', 
@@ -212,7 +212,7 @@ const movies = [
       year: '2012', 
       director: 'Anurag Basu', 
       leadActor: 'Ranbir Kapoor' ,
-      backgroundImage : '/media/barfi.jpeg'
+      backgroundImage : '/medias/barfi.jpeg'
     },
     { 
       title: 'Tamasha', 
@@ -220,7 +220,7 @@ const movies = [
       year: '2015', 
       director: 'Imtiaz Ali', 
       leadActor: 'Ranbir Kapoor' ,
-      backgroundImage : '/media/tamasha.jpg'
+      backgroundImage : '/medias/tamasha.jpg'
     },
     { 
       title: 'Ae Dil Hai Mushkil', 
@@ -228,7 +228,7 @@ const movies = [
       year: '2016', 
       director: 'Karan Johar', 
       leadActor: 'Ranbir Kapoor' ,
-      backgroundImage : '/media/adhm.jpg'
+      backgroundImage : '/medias/adhm.jpg'
     },
     
     { 
@@ -237,7 +237,7 @@ const movies = [
       year: '2002', 
       director: 'Kunal Kohli', 
       leadActor: 'Hrithik Roshan' ,
-      backgroundImage : '/media/mujhsedostikaroge.jpeg'
+      backgroundImage : '/medias/mujhsedostikaroge.jpeg'
     },
     { 
       title: 'Koi... Mil Gaya', 
@@ -245,7 +245,7 @@ const movies = [
       year: '2003', 
       director: 'Rakesh Roshan', 
       leadActor: 'Hrithik Roshan',
-      backgroundImage : '/media/kmg.jpeg' 
+      backgroundImage : '/medias/kmg.jpeg' 
     },
     { 
       title: 'Krrish', 
@@ -253,7 +253,7 @@ const movies = [
       year: '2006', 
       director: 'Rakesh Roshan', 
       leadActor: 'Hrithik Roshan' ,
-      backgroundImage : '/media/krrish.jpg'
+      backgroundImage : '/medias/krrish.jpg'
     },
     { 
       title: 'Dhoom 2', 
@@ -261,7 +261,7 @@ const movies = [
       year: '2006', 
       director: 'Sanjay Gadhvi', 
       leadActor: 'Hrithik Roshan' ,
-      backgroundImage : '/media/dhoom2.jpeg'
+      backgroundImage : '/medias/dhoom2.jpeg'
     },
     { 
       title: 'Jodhaa Akbar', 
@@ -269,7 +269,7 @@ const movies = [
       year: '2008', 
       director: 'Ashutosh Gowariker', 
       leadActor: 'Hrithik Roshan' ,
-      backgroundImage : '/media/jab.jpg'
+      backgroundImage : '/medias/jab.jpg'
     },
     { 
       title: 'Guzaarish', 
@@ -277,7 +277,7 @@ const movies = [
       year: '2010', 
       director: 'Sanjay Leela Bhansali', 
       leadActor: 'Hrithik Roshan' ,
-      backgroundImage : '/media/guzaarish.jpg'
+      backgroundImage : '/medias/guzaarish.jpg'
     },
     { 
       title: 'Zindagi Na Milegi Dobara', 
@@ -285,7 +285,7 @@ const movies = [
       year: '2011', 
       director: 'Zoya Akhtar', 
       leadActor: 'Hrithik Roshan' ,
-      backgroundImage : '/media/znmd.jpg'
+      backgroundImage : '/medias/znmd.jpg'
     },
     { 
       title: 'Agneepath', 
@@ -293,7 +293,7 @@ const movies = [
       year: '2012', 
       director: 'Karan Malhotra', 
       leadActor: 'Hrithik Roshan' ,
-      backgroundImage : '/media/agneepath.jpg'
+      backgroundImage : '/medias/agneepath.jpg'
     },
     { 
       title: 'Krrish 3', 

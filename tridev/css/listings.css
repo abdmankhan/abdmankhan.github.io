@@ -76,9 +76,7 @@ body {
   .card h2 {
     margin-bottom: 5px;
   }
-  .card:hover{
-    /* filter : blur(5px); */
-  }
+  
   .card p {
     margin: 5px 0;
   }

@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Satisfy&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Euclid Circular A", "Poppins";
+  
+}
+nav a:hover{
+  border-bottom: 4px solid black;
+}
+h1 {
+  font-family: Satisfy;
+  color: #d1d1d1;
+}
+nav {
+  position: fixed;
+  z-index: 1000;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 64px;
+  padding: 0 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+nav img {
+  height: 80%;
+}
+
+nav a {
+  margin-left: 30px;
+  font-size: 20px;
+  text-decoration: none;
+  color: white;
+}
+.box {
+  border: 2px solid rgb(210, 209, 208);
+  width: 30%;
+  margin-left: 35%;
+  padding: 30px;
+  border-radius: 16px;
+  background: #ff0000;
+  background: -webkit-linear-gradient(to right,
+      #020024,
+      #790914);
+  background: linear-gradient(to right,
+      #48070d,
+      #790914);
+  margin-top: 125px;
+  margin-bottom: 24px;
+}
+
+.txt {
+  text-align: left;
+  margin-top: 130px;
+  margin-left: 230px;
+  width: 200px;
+}
+
+input {
+  font-size: 20px;
+  margin-left: 20px;
+}
+
+label {
+  margin-left: 20px;
+  font-size: 20px;
+}
+
+body {
+  background: #ff0000;
+  background: -webkit-linear-gradient(to right,
+      #020024,
+      #790914);
+  background: linear-gradient(to right,
+      #020024,
+      #790914);
+  background-repeat: no-repeat;
+  background-size: 110% 120%;
+  margin: 0px;
+  height: 500px;
+
+}
+
+#submit {
+  cursor: pointer;
+  width: 90px;
+  margin-left: 100px;
+  border-radius: 16px;
+}
